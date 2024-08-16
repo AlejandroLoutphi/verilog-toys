@@ -1,0 +1,68 @@
+$date
+	Fri Aug 16 14:15:36 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_dff $end
+$var wire 4 ! o [3:0] $end
+$var reg 1 " clk_i $end
+$var reg 4 # i [3:0] $end
+$var reg 1 $ rst_ni $end
+$scope module uut $end
+$var wire 1 " clk_i $end
+$var wire 4 % i [3:0] $end
+$var wire 1 $ rst_ni $end
+$var reg 4 & o [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b101 %
+0$
+b101 #
+0"
+b0 !
+$end
+#1000
+1$
+#5000
+b101 !
+b101 &
+1"
+#10000
+0"
+b111 #
+b111 %
+#13000
+b1001 #
+b1001 %
+#15000
+b1001 !
+b1001 &
+1"
+#17000
+b10 #
+b10 %
+#19000
+b110 #
+b110 %
+#20000
+0"
+#24000
+b11 #
+b11 %
+#25000
+b11 !
+b11 &
+1"
+#30000
+0"
+#33000
+b100 #
+b100 %
