@@ -1,3 +1,5 @@
 .nvim/
 **/*.out
+**/*.vcd
+**/verible.filelist
 .rules.verible_lint
