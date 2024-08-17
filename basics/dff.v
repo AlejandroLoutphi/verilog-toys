@@ -1,5 +1,6 @@
 module dff #(
-    parameter Width = 1
+    parameter Width = 1,
+    parameter ResetState = 0
 ) (
     input clk_i,
     input rst_ni,
@@ -9,7 +10,7 @@ module dff #(
 
   always @(posedge clk_i or negedge rst_ni) begin
     if (!rst_ni) begin
-      o <= 0;
+      o <= ResetState;
     end else begin
       o <= i;
     end
