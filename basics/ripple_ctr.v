@@ -17,7 +17,7 @@ module ripple_ctr #(
   generate
     for (width_c = 0; width_c < Width; width_c = width_c + 1) begin : g_dffs
       dff #(
-          .ResetState(1)
+          .ResetState(1'b1)
       ) bit_n (
           .clk_i(dff_clks[width_c]),
           .rst_ni(rst_ni),
