@@ -1,4 +1,4 @@
-`include "dff_we.v"
+`include "dff_w_we.v"
 
 module shift_reg #(
     parameter Width = 1,
